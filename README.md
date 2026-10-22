@@ -4,9 +4,11 @@
 
 An independent GTM Engineering proof of concept by Santiago Gonzalez Alvarez. It turns an organiser CSV into a ranked work list with a commercial assessment, a next action and an explanation.
 
+**[Watch the demo on YouTube (9:34)](https://youtu.be/9GiAXAyxHyM)**
+
 [![Tests](https://github.com/sgon0181/humanitix-sales-priority-engine/actions/workflows/tests.yml/badge.svg)](https://github.com/sgon0181/humanitix-sales-priority-engine/actions/workflows/tests.yml)
 
-![Ranked organiser accounts with estimated fees, recommended actions and explanations](docs/images/priority-queue.png)
+[![Watch the Humanitix POC demo: ranked accounts, commercial evidence and explained next actions](docs/images/priority-queue.png)](https://youtu.be/9GiAXAyxHyM)
 
 Inspect the generated [ranked results](examples/ranked_accounts.csv) or [HubSpot task draft](examples/hubspot_tasks_REVIEW_DRAFT.csv) without running the app.
 
