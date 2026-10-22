@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A local proof of concept for turning organiser research and CRM context into explainable next actions.">
+  <title>Humanitix | Sales Priority Engine</title>
+  <link rel="preload" href="/fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/slides.css">
+  <script src="/slides.js"></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div id="deck" class="deck" aria-label="Presentation introduction">
+    <div class="deck-bar">
+      <span class="brand"><span class="brand-mark" aria-hidden="true">h</span> humanitix <span class="brand-divider"></span><span class="brand-label">Growth POC</span></span>
+      <a class="skip" href="#demo">Skip to demo &rarr;</a>
+    </div>
+
+    <section class="slide" id="slide-problem" aria-label="Slide 1 of 3: The problem">
+      <div class="slide-inner centered">
+        <p class="eyebrow">THE PROBLEM</p>
+        <h1>Who should Humanitix <span class="coral-line">call next?</span></h1>
+        <p class="subhead">Making better use of existing organiser data to accelerate US growth.</p>
+        <div class="cards">
+          <article class="card tone-coral"><span class="card-num">01</span><h3>Sales efficiency</h3><p>Grant's scenario: 5 salespeople, years of organiser data and limited time.</p><p class="question">Which accounts deserve attention first?</p></article>
+          <article class="card tone-lilac"><span class="card-num">02</span><h3>US expansion</h3><p>A major growth opportunity in a market where Humanitix is still a small player.</p><p class="question">How do we identify the most valuable opportunities?</p></article>
+          <article class="card tone-sage"><span class="card-num">03</span><h3>GTM engineering</h3><p>More growth opportunities than the team can execute.</p><p class="question">Build what creates value, not what creates complexity.</p></article>
+        </div>
+        <p class="byline">An independent GTM Engineering proof of concept <span aria-hidden="true">/</span> <strong>Santiago Gonzalez Alvarez</strong> <span aria-hidden="true">/</span> October 2026</p>
+        <p class="continue"><span class="pulse" aria-hidden="true"></span>Click to continue</p>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-approach" aria-label="Slide 2 of 3: The approach">
+      <div class="slide-inner">
+        <p class="eyebrow">THE APPROACH</p>
+        <h2 class="slide-title">From messy CRM data to the next best action.</h2>
+        <ol class="journey">
+          <li class="tone-coral"><span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg></span><span class="step-label">STEP 1</span><h3>Understand</h3><p>Source real organisers with Perplexity and Apollo, then check selected public information.</p></li>
+          <li class="tone-lilac"><span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/></svg></span><span class="step-label">STEP 2</span><h3>Structure</h3><p>Standardise the records. Add fictional commercial inputs and CRM histories to test the logic.</p></li>
+          <li class="tone-sage"><span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h10M4 18h5"/></svg></span><span class="step-label">STEP 3</span><h3>Prioritise</h3><p>Rank estimated annual fees within each action priority, preserving callbacks and restrictions.</p></li>
+          <li class="tone-sand"><span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span><span class="step-label">STEP 4</span><h3>Act</h3><p>Generate an explained next-action queue and a HubSpot-compatible review draft.</p></li>
+        </ol>
+        <p class="insight">A valuable account isn't necessarily <span class="coral-line">the next account to call.</span></p>
+        <ul class="evidence-strip" aria-label="Evidence base">
+          <li>95 real organiser identities sourced</li>
+          <li>Selected public checks on 20 records</li>
+          <li class="simulated">Commercial and CRM inputs are simulated</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-decisions" aria-label="Slide 3 of 3: Four decisions">
+      <div class="slide-inner">
+        <p class="eyebrow">FOUR DECISIONS THAT SHAPED THE SOLUTION</p>
+        <h2 class="slide-title">Four decisions. One focused solution.</h2>
+        <ol class="decisions">
+          <li class="decision tone-coral"><div class="instead"><span>INSTEAD OF</span><s>Building another prospect scraper</s></div><div class="arrow" aria-hidden="true">&rarr;</div><div class="chose"><span>I CHOSE</span><strong>Prioritising existing organiser records</strong><p>Grant identified a substantial prospect database already available to the team.</p></div></li>
+          <li class="decision tone-lilac"><div class="instead"><span>INSTEAD OF</span><s>Ranking by the biggest event</s></div><div class="arrow" aria-hidden="true">&rarr;</div><div class="chose"><span>I CHOSE</span><strong>Considering estimated annual fee revenue</strong><p>Recurring paid tickets drive the fee estimate. Inputs and rates are illustrative; gross fees are not profit.</p></div></li>
+          <li class="decision tone-sage"><div class="instead"><span>INSTEAD OF</span><s>Ranking solely by commercial potential</s></div><div class="arrow" aria-hidden="true">&rarr;</div><div class="chose"><span>I CHOSE</span><strong>Separating value from urgency</strong><p>Callbacks, engagement history, restrictions and recent contact change the appropriate next action.</p></div></li>
+          <li class="decision tone-sand"><div class="instead"><span>INSTEAD OF</span><s>A black-box recommendation</s></div><div class="arrow" aria-hidden="true">&rarr;</div><div class="chose"><span>I CHOSE</span><strong>Explainable rules and human review</strong><p>Salespeople should understand recommendations and retain control.</p></div></li>
+        </ol>
+        <div class="slide-foot">
+          <p class="statement">Simple enough to explain. <span class="coral-line">Practical enough to test.</span></p>
+          <a class="button primary cta" href="#demo">Explore the working prototype &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <nav class="deck-dots" aria-label="Presentation progress">
+    <button type="button" aria-label="Slide 1: The problem"></button>
+    <button type="button" aria-label="Slide 2: The approach"></button>
+    <button type="button" aria-label="Slide 3: Four decisions"></button>
+    <button type="button" aria-label="Live demo"></button>
+  </nav>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Humanitix demo home"><span class="brand-mark" aria-hidden="true">h</span> humanitix <span class="brand-divider"></span><span class="brand-label">Growth POC</span></a>
+    <span class="local-badge"><span class="status-dot"></span> Local demo</span>
+  </header>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">US SALES PRIORITY ENGINE</p>
+      <h1>A clearer next move<br>for every account.</h1>
+      <p class="lead">See which accounts deserve attention, what to do next and why.</p>
+    </section>
+
+    <section class="input-panel" id="csv-drop-zone" aria-label="CSV input" aria-describedby="drop-hint">
+      <div class="upload-copy"><div><h2>Start with your organiser records</h2><p id="drop-hint">Upload a CSV or drop it here to generate a prioritised work list. Maximum 10 MB.</p></div></div>
+      <div class="input-actions">
+        <label class="button primary upload-button" for="csv-file">Upload CSV<input id="csv-file" type="file" accept=".csv,text/csv"></label>
+      </div>
+      <details class="format-help" id="file-help"><summary>Preparing your file</summary>
+        <ol class="file-steps">
+          <li><a href="/template.csv" download>Download blank CSV template</a> if you need a starting point.</li>
+          <li>Add one organiser per row, with account details, commercial inputs and any known CRM activity.</li>
+          <li>Keep the column headings. Leave unknown values blank; the system calculates priorities.</li>
+        </ol>
+      </details>
+    </section>
+
+    <p id="progress" role="status" aria-live="polite"></p>
+    <div id="error" class="error" role="alert" hidden></div>
+
+    <p id="limitation" class="demo-note">Commercial inputs and CRM histories are simulated. Fee estimates are illustrative. Exports require human review.</p>
+
+    <section id="results" aria-label="Ranked accounts" hidden>
+      <div class="results-top">
+        <div><h2>Your next actions <span id="account-count" class="count"></span></h2><p id="batch-meta" class="muted"></p></div>
+        <div class="download-actions"><a id="download-results" class="button primary" download>Download results CSV</a><a id="download-handoff" class="button secondary" download>Download HubSpot draft</a></div>
+      </div>
+      <p class="scroll-hint">Scroll the table horizontally to see next actions and explanations.</p>
+      <div class="table-scroll" tabindex="0" aria-label="Ranked account table, scroll horizontally on smaller screens">
+        <table><thead><tr><th scope="col">Account</th><th scope="col">Action priority</th><th scope="col">Commercial assessment</th><th scope="col">Recommended next action</th><th scope="col">Why this action</th></tr></thead><tbody id="accounts"></tbody></table>
+      </div>
+      <p id="draft-note" class="footnote"></p>
+      <details id="input-issues" class="format-help" hidden><summary id="issue-count"></summary><ul id="issue-list"></ul></details>
+    </section>
+
+    <section id="empty" class="empty-state"><p>Your ranked accounts will appear here.</p></section>
+
+    <details class="rules"><summary>How prioritisation works</summary>
+      <ol class="logic-steps">
+        <li><strong>Check account status.</strong> Respect recorded holds and restrictions. Identify existing customers, open opportunities and unresolved CRM information.</li>
+        <li><strong>Respect timing.</strong> Keep future callbacks, deferrals and recent unanswered contact waiting.</li>
+        <li><strong>Identify the next task.</strong> Distinguish due callbacks, recent replies, qualification and missing-information checks.</li>
+        <li><strong>Estimate commercial value.</strong> Use annual paid tickets and ticket prices to calculate illustrative gross fees.</li>
+        <li><strong>Order comparable work.</strong> Within the same action category and timing, prioritise higher estimated fees, then easier switching. Unknown fees follow known values.</li>
+        <li><strong>Explain the recommendation.</strong> Show the next action and its reason for human review. Missing information becomes a check for a person; the tool does not research the web.</li>
+      </ol>
+      <details class="calculation-details"><summary>Calculations and tie-breaks</summary>
+        <ul class="calculation-list">
+          <li>Annual paid tickets = paid events per year x paid tickets per event.</li>
+          <li>Annual GMV = annual paid tickets x average ticket price.</li>
+          <li>Illustrative gross fees = annual paid tickets x (average ticket price x fee percentage / 100 + fee per ticket).</li>
+          <li id="commercial-rule-detail">Upload a CSV to see the fee assumptions used for that run.</li>
+          <li>Due commitments come first, then recent replies, qualification, missing-information checks, CRM checks, policy review, waiting and existing relationships. Restrictions block acquisition work.</li>
+          <li>Public activity evidence, unresolved checks and account ID resolve remaining ties. Missing fee inputs stay Unknown; GMV never substitutes for fees in ranking.</li>
+          <li>Fee rates are illustrative assumptions. Gross fees are not profit or a revenue forecast; processing costs are not deducted. GMV bands are descriptive and do not determine ranking.</li>
+        </ul>
+      </details>
+    </details>
+  </main>
+  <footer>Independent interview proof of concept</footer>
+</body>
+</html>

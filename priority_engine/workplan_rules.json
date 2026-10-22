@@ -1,0 +1,16 @@
+{
+  "version": "2.0",
+  "label": "Simulated session. Durations are editable planning assumptions, not measured productivity.",
+  "task_minutes": {
+    "sales_preparation": 10,
+    "internal_research": 15,
+    "internal_qualification": 15,
+    "compliance_review": 10
+  },
+  "unowned_allocation": "Most remaining minutes among reps who can fit the task; stable rep ID breaks ties",
+  "ownership": "Owned work stays with its existing owner, including overflow",
+  "priority_order": [
+    "due_commitment", "recent_reply", "qualification", "evidence_research",
+    "clearance", "policy_review", "waiting", "existing_relationship"
+  ]
+}

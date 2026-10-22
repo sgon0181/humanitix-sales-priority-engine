@@ -1,0 +1,46 @@
+{
+  "purpose": "Regression examples, not ranking inputs or preselected winners",
+  "references": [
+    {
+      "legacy_id": "C01",
+      "name": "Greatest Show Ever",
+      "domain": "greatestshowever.com",
+      "merged_account_id": null,
+      "evidence_file": "PROSPECTS.md",
+      "evidence_section": "C01",
+      "case": "Recurrence is not annual paid volume"
+    },
+    {
+      "legacy_id": "C09",
+      "name": "Henceforth Comedy",
+      "merged_account_id": "US035",
+      "evidence_file": "research/PERPLEXITY_REVIEW.md",
+      "case": "Free offers excluded from paid observations"
+    },
+    {
+      "legacy_id": "C03",
+      "name": "Drunk Theatre",
+      "domain": "drunktheatre.com",
+      "merged_account_id": null,
+      "evidence_file": "PROSPECTS.md",
+      "evidence_section": "C03",
+      "case": "Venue-dependent ticketing"
+    },
+    {
+      "legacy_id": "P02",
+      "name": "Storytelling with Data",
+      "domain": "storytellingwithdata.com",
+      "merged_account_id": null,
+      "evidence_file": "PROSPECTS.md",
+      "evidence_section": "P02",
+      "case": "High ticket price does not establish annual value"
+    },
+    {
+      "legacy_id": "P05",
+      "name": "The Management Center",
+      "merged_account_id": "US078",
+      "evidence_file": "research/PERPLEXITY_REVIEW.md",
+      "case": "Course sessions are not separate ticket purchases"
+    }
+  ]
+}

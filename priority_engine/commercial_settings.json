@@ -1,0 +1,9 @@
+{
+  "label": "Illustrative demonstration assumptions only. Not verified Humanitix pricing or validated commercial cutoffs.",
+  "fee_percentage": 4,
+  "fee_per_paid_ticket_usd": 1,
+  "gmv_thresholds_usd": {
+    "High": 250000,
+    "Medium": 50000
+  }
+}

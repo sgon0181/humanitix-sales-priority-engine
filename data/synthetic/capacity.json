@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "synthetic": true,
+    "label": "FICTIONAL FIVE-PERSON CAPACITY. NOT HUMANITIX STAFF OR WORKLOADS.",
+    "session": "Remaining minutes from the fixed scenario clock; no calendar availability claim"
+  },
+  "representatives": [
+    {
+      "rep_id": "SIM_REP_A",
+      "name": "Demo rep A",
+      "available_minutes": 60
+    },
+    {
+      "rep_id": "SIM_REP_B",
+      "name": "Demo rep B",
+      "available_minutes": 45
+    },
+    {
+      "rep_id": "SIM_REP_C",
+      "name": "Demo rep C",
+      "available_minutes": 30
+    },
+    {
+      "rep_id": "SIM_REP_D",
+      "name": "Demo rep D",
+      "available_minutes": 0
+    },
+    {
+      "rep_id": "SIM_REP_E",
+      "name": "Demo rep E",
+      "available_minutes": 60
+    }
+  ]
+}

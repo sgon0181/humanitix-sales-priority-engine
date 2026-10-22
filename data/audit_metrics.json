@@ -1,0 +1,29 @@
+{
+  "input_rows": 95,
+  "input_columns": 68,
+  "unique_ids": 95,
+  "exact_normalised_name_duplicate_groups": 0,
+  "exact_normalised_domain_duplicate_groups": 0,
+  "source_dataset_distribution": {
+    "perplexity": 40,
+    "apollo_chatgpt": 45,
+    "perplexity; apollo_chatgpt": 10
+  },
+  "source_records": 105,
+  "missing_imported_fields": {
+    "city": 2,
+    "state": 3,
+    "published_ticket_prices_usd": 32,
+    "observed_ticketing_platform": 59,
+    "ticketing_authority_evidence": 21
+  },
+  "flagged_records": [
+    "US008",
+    "US009",
+    "US055",
+    "US080"
+  ],
+  "all_annual_paid_volume_unknown": true,
+  "primary_sample_count": 20,
+  "raw_sha256": "b537b8f5313fe96648404e08d9f8a77f398040a39cbc40c3a677d151e85cbf8b"
+}

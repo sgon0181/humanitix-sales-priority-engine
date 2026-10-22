@@ -1,0 +1,11 @@
+{
+  "rules_version": "1.0",
+  "business_timezone": "America/New_York",
+  "label": "Editable POC assumptions, not Humanitix policy or calibrated sales predictions",
+  "evidence_freshness_days": 90,
+  "offer_window_days": 365,
+  "cooldown_days": 7,
+  "attempt_window_days": 30,
+  "attempt_limit": 3,
+  "reply_window_days": 30
+}

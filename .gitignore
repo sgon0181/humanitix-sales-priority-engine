@@ -1,0 +1,37 @@
+# Local working history and project-specific instructions
+/_local/
+/AGENTS.md
+/PROJECT.md
+/RESEARCH.md
+/STATUS.md
+
+# Generated uploads, workloads and handoff files
+/outputs/*
+!/outputs/.gitkeep
+/output/
+/tmp/
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+.vscode/
+.idea/
+
+# Credentials and large recordings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.mov
+*.mp4
+*.mkv
+
+# Local hosting metadata
+.openai/

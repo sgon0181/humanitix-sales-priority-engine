@@ -1,0 +1,1401 @@
+{
+  "metadata": {
+    "selected_count": 20,
+    "sample_type": "purposive_risk_based_not_representative",
+    "primary_access": "19 records have direct primary content; ASMP relies on indexed primary content. Some fields remain unverified."
+  },
+  "reviews": [
+    {
+      "account_id": "US001",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Paid classes versus free community programmes",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Paid kitchen offers coexist with free programmes; original three-date snapshot is no longer reproduced.",
+      "source_urls": [
+        "https://18reasons.org/"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [
+        {
+          "name": "Southern Thai class",
+          "event_start_date": "2026-10-23",
+          "currency": "USD",
+          "price_min": 185,
+          "price_max": 195,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://18reasons.org/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Frede pop-up",
+          "event_start_date": "2026-10-25",
+          "currency": "USD",
+          "price_min": 110,
+          "price_max": 120,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://18reasons.org/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Sunday Supper",
+          "event_start_date": "2026-11-01",
+          "currency": "USD",
+          "price_min": 70,
+          "price_max": 80,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://18reasons.org/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "recurrence_observation": {
+        "kind": "multiple_paid_offers",
+        "distinct_offer_start_dates": [
+          "2026-10-23",
+          "2026-10-25",
+          "2026-11-01"
+        ],
+        "source_url": "https://18reasons.org/",
+        "observed_on": "2026-10-22"
+      },
+      "provider_observations": [
+        {
+          "name": "Shopify",
+          "role": "website_store",
+          "scope": "Cart/footer only; not a verified ticketing procurement relationship",
+          "source_url": "https://18reasons.org/",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "dependency_observations": [
+        {
+          "fact": "Member pricing and gift cards",
+          "source_url": "https://18reasons.org/",
+          "basis": "published_features"
+        }
+      ],
+      "location_observations": [
+        {
+          "city": "San Francisco",
+          "state": "CA",
+          "basis": "operating_address",
+          "source_url": "https://18reasons.org/"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "canonical_website": "https://18reasons.org/",
+      "paid_mix": "paid_and_free_programmes"
+    },
+    {
+      "account_id": "US002",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Specialist race registration and third-party events",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "US calendar corroborates repeated races, but includes outside producers; calendar size is not owned paid inventory.",
+      "source_urls": [
+        "https://www.aravaiparunning.com/races/"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [],
+      "recurrence_observation": {
+        "kind": "multiple_events_paidness_unverified",
+        "distinct_offer_start_dates": [
+          "2026-10-31",
+          "2026-11-14",
+          "2026-12-05"
+        ],
+        "source_url": "https://www.aravaiparunning.com/races/",
+        "observed_on": "2026-10-22"
+      },
+      "provider_observations": [],
+      "dependency_observations": [
+        {
+          "fact": "Calendar contains races linking to another producer",
+          "basis": "observed_link",
+          "source_url": "https://www.aravaiparunning.com/races/"
+        }
+      ],
+      "location_observations": [],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ]
+    },
+    {
+      "account_id": "US003",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Chapter authority, historical price and capacity",
+      "verification_status": "field_reviewed",
+      "access_basis": "primary_search_index_only",
+      "summary": "Indexed official offer supports a past workshop and member pricing; direct page returned maintenance. Eight places are capacity, not sales.",
+      "source_urls": [
+        "https://www.asmp.org/newyork/event/fine-art-printing-workshop/"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [
+        {
+          "name": "Fine Art Printing",
+          "event_start_date": "2026-10-17",
+          "currency": "USD",
+          "price_min": 200,
+          "price_max": 275,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "past_event",
+          "source_url": "https://www.asmp.org/newyork/event/fine-art-printing-workshop/",
+          "access_basis": "primary_search_index_only",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "recurrence_observation": {
+        "kind": "one_historical_offer",
+        "distinct_offer_start_dates": [
+          "2026-10-17"
+        ],
+        "source_url": "https://www.asmp.org/newyork/event/fine-art-printing-workshop/",
+        "observed_on": "2026-10-22"
+      },
+      "provider_observations": [],
+      "dependency_observations": [
+        {
+          "fact": "Member and non-member prices",
+          "basis": "indexed_published_feature",
+          "source_url": "https://www.asmp.org/newyork/event/fine-art-printing-workshop/"
+        }
+      ],
+      "location_observations": [
+        {
+          "city": "Hastings-on-Hudson",
+          "state": "NY",
+          "basis": "event_location",
+          "source_url": "https://www.asmp.org/newyork/event/fine-art-printing-workshop/"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "capacity_observation": {
+        "value": 8,
+        "unit": "maximum_participants",
+        "source_url": "https://www.asmp.org/newyork/event/fine-art-printing-workshop/",
+        "access_basis": "primary_search_index_only"
+      }
+    },
+    {
+      "account_id": "US008",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Domain and provider conflict; festival pass counting",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Both domains serve matching festival information. Front Gate is primary sales; Ticketmaster Exchange is resale. Early price waves are sold out.",
+      "source_urls": [
+        "https://bigearsfestival.org/passes/",
+        "https://bigearsfestival.com/passes/"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [
+        {
+          "name": "Four-day general admission",
+          "event_start_date": "2027-04-01",
+          "currency": "USD",
+          "price_min": 550,
+          "price_max": 550,
+          "price_basis": "published_offer",
+          "unit": "one_pass_not_four_tickets",
+          "fees": "included",
+          "availability": "purchase_link_observed",
+          "source_url": "https://bigearsfestival.org/passes/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Early Bird / Wave 1",
+          "event_start_date": "2027-04-01",
+          "currency": "USD",
+          "price_min": 450,
+          "price_max": 500,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "included",
+          "availability": "sold_out",
+          "source_url": "https://bigearsfestival.org/passes/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "recurrence_observation": {
+        "kind": "one_festival_edition",
+        "distinct_offer_start_dates": [
+          "2027-04-01"
+        ],
+        "source_url": "https://bigearsfestival.org/passes/",
+        "observed_on": "2026-10-22"
+      },
+      "provider_observations": [
+        {
+          "name": "Front Gate Tickets",
+          "role": "primary_ticketing",
+          "scope": "2027 festival passes",
+          "source_url": "https://bigearsfestival.org/passes/",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Ticketmaster Verified Exchange",
+          "role": "resale",
+          "scope": "Festival pass resale",
+          "source_url": "https://bigearsfestival.org/passes/",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "dependency_observations": [
+        {
+          "fact": "Wristbands, tiered access and reserved-seat add-ons",
+          "basis": "published_features",
+          "source_url": "https://bigearsfestival.org/passes/"
+        }
+      ],
+      "location_observations": [
+        {
+          "city": "Knoxville",
+          "state": "TN",
+          "basis": "event_location",
+          "source_url": "https://bigearsfestival.org/passes/"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "canonical_website": "https://bigearsfestival.org/",
+      "domain_aliases": [
+        "bigearsfestival.com"
+      ],
+      "conflict_resolution": "Domain alias and equivalent provider wording; preserve primary/resale roles separately."
+    },
+    {
+      "account_id": "US009",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Multi-office conflict and contradictory prices",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_checkout_and_primary_index",
+      "summary": "Contact index lists two offices. Silverado has inconsistent headline tiers and a separate promotion; no single current representative price is defensible.",
+      "source_urls": [
+        "https://brewhahaproductions.com/contact",
+        "https://brewhahaproductions.ticketspice.com/silverado"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [
+        {
+          "name": "Silverado promotional listing",
+          "event_start_date": null,
+          "currency": "USD",
+          "price_min": 39.99,
+          "price_max": 39.99,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "additional",
+          "availability": "date_unresolved",
+          "source_url": "https://brewhahaproductions.ticketspice.com/silverado",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Silverado headline tiers",
+          "event_start_date": null,
+          "currency": "USD",
+          "price_min": 54.99,
+          "price_max": 79.99,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "conflicting_tier_text",
+          "source_url": "https://brewhahaproductions.ticketspice.com/silverado",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "recurrence_observation": null,
+      "provider_observations": [
+        {
+          "name": "TicketSpice",
+          "role": "event_checkout",
+          "scope": "Silverado only; date/current availability unresolved",
+          "source_url": "https://brewhahaproductions.ticketspice.com/silverado",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "dependency_observations": [],
+      "location_observations": [
+        {
+          "city": "Anaheim",
+          "state": "CA",
+          "basis": "office_primary_index",
+          "source_url": "https://brewhahaproductions.com/contact"
+        },
+        {
+          "city": "McKinney",
+          "state": "TX",
+          "basis": "office_primary_index",
+          "source_url": "https://brewhahaproductions.com/contact"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "conflict_resolution": "www formatting is not an identity conflict; city/state values cover two offices. Price discrepancy remains unresolved."
+    },
+    {
+      "account_id": "US010",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Mixed programme and self-reported monthly volume",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Two workshop dates and a USD 35 offer are visible; almost 100 classes monthly is an organiser claim covering a mixed programme.",
+      "source_urls": [
+        "https://brooklynbrainery.com/",
+        "https://brooklynbrainery.com/courses/medieval-embroidered-bug-patches"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [
+        {
+          "name": "Embroidered Bug Patches",
+          "event_start_date": null,
+          "currency": "USD",
+          "price_min": 35,
+          "price_max": 35,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://brooklynbrainery.com/courses/medieval-embroidered-bug-patches",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22",
+          "date_text": "October 24 or November 7; year not explicit on offer"
+        }
+      ],
+      "recurrence_observation": {
+        "kind": "multiple_dates_year_unresolved",
+        "distinct_offer_start_dates": [],
+        "source_url": "https://brooklynbrainery.com/courses/medieval-embroidered-bug-patches",
+        "observed_on": "2026-10-22",
+        "date_texts": [
+          "October 24",
+          "November 7"
+        ]
+      },
+      "provider_observations": [],
+      "dependency_observations": [],
+      "location_observations": [
+        {
+          "city": "Brooklyn",
+          "state": "NY",
+          "basis": "class_location",
+          "source_url": "https://brooklynbrainery.com/courses/medieval-embroidered-bug-patches"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "paid_mix": "paid_and_free_programmes",
+      "self_reported_cadence": {
+        "value_text": "almost 100 classes per month",
+        "paid_only": false,
+        "source_url": "https://brooklynbrainery.com/"
+      }
+    },
+    {
+      "account_id": "US014",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Provider gap and membership versus admission",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Production-site calendar exposes Eventbrite links. Livestream membership inclusion must be separated from individual paid offers.",
+      "source_urls": [
+        "https://www.177milkstreet.com/milk-street-cooking-school"
+      ],
+      "us_scope": "us_operations_and_online_audience_unknown",
+      "offer_observations": [
+        {
+          "name": "Leah Koenig in-person class",
+          "event_start_date": "2026-10-24",
+          "currency": "USD",
+          "price_min": 149.95,
+          "price_max": 149.95,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.177milkstreet.com/milk-street-cooking-school",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Small group workshop",
+          "event_start_date": "2026-10-26",
+          "currency": "USD",
+          "price_min": 69.95,
+          "price_max": 69.95,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.177milkstreet.com/milk-street-cooking-school",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Livestream Borsch",
+          "event_start_date": "2026-10-28",
+          "currency": "USD",
+          "price_min": 29.95,
+          "price_max": 29.95,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.177milkstreet.com/milk-street-cooking-school",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "recurrence_observation": {
+        "kind": "multiple_paid_offers",
+        "distinct_offer_start_dates": [
+          "2026-10-24",
+          "2026-10-26",
+          "2026-10-28"
+        ],
+        "source_url": "https://www.177milkstreet.com/milk-street-cooking-school",
+        "observed_on": "2026-10-22"
+      },
+      "provider_observations": [
+        {
+          "name": "Eventbrite",
+          "role": "linked_event_checkout",
+          "scope": "Observed cooking-school listings only",
+          "source_url": "https://www.177milkstreet.com/milk-street-cooking-school",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "dependency_observations": [
+        {
+          "fact": "Livestream inclusion for Insider members",
+          "basis": "published_feature",
+          "source_url": "https://www.177milkstreet.com/milk-street-cooking-school"
+        }
+      ],
+      "location_observations": [],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ]
+    },
+    {
+      "account_id": "US019",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Freshness and undated upcoming inventory",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Homepage has October 30 and November 2 labels without years and Eventbrite links. Neither current-year certainty nor a paid price was established.",
+      "source_urls": [
+        "https://www.comedy-party.com/"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [],
+      "recurrence_observation": {
+        "kind": "multiple_dates_year_unresolved",
+        "distinct_offer_start_dates": [],
+        "source_url": "https://www.comedy-party.com/",
+        "observed_on": "2026-10-22",
+        "date_texts": [
+          "October 30",
+          "November 2"
+        ]
+      },
+      "provider_observations": [
+        {
+          "name": "Eventbrite",
+          "role": "linked_event_checkout",
+          "scope": "Selected homepage shows",
+          "source_url": "https://www.comedy-party.com/",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "dependency_observations": [],
+      "location_observations": [
+        {
+          "city": "Boston / Roslindale",
+          "state": "MA",
+          "basis": "event_market",
+          "source_url": "https://www.comedy-party.com/"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ]
+    },
+    {
+      "account_id": "US035",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Reference case and paid/free mix",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Three paid offers and two free shows are separately identified. Performer submission contact is not a verified ticketing buyer.",
+      "source_urls": [
+        "https://henceforthcomedy.com/"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [
+        {
+          "name": "Sandusky headliners",
+          "event_start_date": "2026-10-23",
+          "currency": "USD",
+          "price_min": 22.53,
+          "price_max": 22.53,
+          "price_basis": "starting_price",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://henceforthcomedy.com/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Sandusky late night",
+          "event_start_date": "2026-10-23",
+          "currency": "USD",
+          "price_min": 0,
+          "price_max": 0,
+          "price_basis": "free",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://henceforthcomedy.com/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "All Saints late night",
+          "event_start_date": "2026-10-24",
+          "currency": "USD",
+          "price_min": 22.53,
+          "price_max": 22.53,
+          "price_basis": "starting_price",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://henceforthcomedy.com/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Cleveland showcase",
+          "event_start_date": "2026-10-27",
+          "currency": "USD",
+          "price_min": 0,
+          "price_max": 0,
+          "price_basis": "free",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://henceforthcomedy.com/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Tabletop late night",
+          "event_start_date": "2026-10-30",
+          "currency": "USD",
+          "price_min": 17.22,
+          "price_max": 17.22,
+          "price_basis": "starting_price",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://henceforthcomedy.com/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "recurrence_observation": {
+        "kind": "multiple_paid_offers",
+        "distinct_offer_start_dates": [
+          "2026-10-23",
+          "2026-10-24",
+          "2026-10-30"
+        ],
+        "source_url": "https://henceforthcomedy.com/",
+        "observed_on": "2026-10-22"
+      },
+      "provider_observations": [
+        {
+          "name": "Eventbrite",
+          "role": "organiser_statement",
+          "scope": "FAQ; event policies may vary",
+          "source_url": "https://henceforthcomedy.com/",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "dependency_observations": [],
+      "location_observations": [],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "aliases": [
+        "Secret Society Comedy LLC"
+      ],
+      "paid_mix": "paid_and_free_events"
+    },
+    {
+      "account_id": "US040",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Incomplete embeds and provider over-inference",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Portland identity and programming are corroborated; embeds expose no dated paid offer. Crowdwork gift-card link does not verify show ticketing.",
+      "source_urls": [
+        "https://www.kickstandcomedy.org/calendar",
+        "https://www.kickstandcomedy.org/shows"
+      ],
+      "us_scope": "us_venue_observed_events_unresolved",
+      "offer_observations": [],
+      "recurrence_observation": null,
+      "provider_observations": [
+        {
+          "name": "Crowdwork",
+          "role": "gift_cards_link",
+          "scope": "Not evidence of show ticketing platform",
+          "source_url": "https://www.kickstandcomedy.org/calendar",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "dependency_observations": [],
+      "location_observations": [
+        {
+          "city": "Portland",
+          "state": "OR",
+          "basis": "venue_address",
+          "source_url": "https://www.kickstandcomedy.org/calendar"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ]
+    },
+    {
+      "account_id": "US049",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Repeated courses and package double counting",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Dated Level I repeats support paid recurrence. Two-day Bootcamp is a package, not two additional independent sales.",
+      "source_urls": [
+        "https://www.nobledesktop.com/corporate-training/powerpoint"
+      ],
+      "us_scope": "us_operations_and_online_audience_unknown",
+      "offer_observations": [
+        {
+          "name": "PowerPoint Level I",
+          "event_start_date": "2026-11-12",
+          "currency": "USD",
+          "price_min": 299,
+          "price_max": 299,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.nobledesktop.com/corporate-training/powerpoint",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "PowerPoint Level I",
+          "event_start_date": "2026-12-10",
+          "currency": "USD",
+          "price_min": 299,
+          "price_max": 299,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.nobledesktop.com/corporate-training/powerpoint",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "PowerPoint Level I",
+          "event_start_date": "2027-01-14",
+          "currency": "USD",
+          "price_min": 299,
+          "price_max": 299,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.nobledesktop.com/corporate-training/powerpoint",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "PowerPoint Bootcamp",
+          "event_start_date": "2026-11-12",
+          "currency": "USD",
+          "price_min": 549,
+          "price_max": 549,
+          "price_basis": "published_offer",
+          "unit": "one_two_day_package",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.nobledesktop.com/corporate-training/powerpoint",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "recurrence_observation": {
+        "kind": "multiple_paid_offers",
+        "distinct_offer_start_dates": [
+          "2026-11-12",
+          "2026-12-10",
+          "2027-01-14"
+        ],
+        "source_url": "https://www.nobledesktop.com/corporate-training/powerpoint",
+        "observed_on": "2026-10-22"
+      },
+      "provider_observations": [],
+      "dependency_observations": [
+        {
+          "fact": "Separate public registrations, corporate vouchers and private training",
+          "basis": "published_features",
+          "source_url": "https://www.nobledesktop.com/corporate-training/powerpoint"
+        }
+      ],
+      "location_observations": [],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ]
+    },
+    {
+      "account_id": "US055",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Office versus venue conflict and stale edition",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Portland office and Happy Valley venue are different location types. Current homepage advertises the 2027 edition; numeric price remains unresolved.",
+      "source_urls": [
+        "https://pickathon.com/"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [],
+      "recurrence_observation": {
+        "kind": "annual_editions_observed",
+        "distinct_offer_start_dates": [
+          "2027-08-04"
+        ],
+        "source_url": "https://pickathon.com/",
+        "observed_on": "2026-10-22",
+        "previous_edition_year": 2026
+      },
+      "provider_observations": [],
+      "dependency_observations": [],
+      "location_observations": [
+        {
+          "city": "Portland",
+          "state": "OR",
+          "basis": "office_address",
+          "source_url": "https://pickathon.com/"
+        },
+        {
+          "city": "Happy Valley",
+          "state": "OR",
+          "basis": "event_venue",
+          "source_url": "https://pickathon.com/"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "conflict_resolution": "Office versus venue scope; no duplicate identity."
+    },
+    {
+      "account_id": "US059",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Annual conference, self-reported sales and operating stack",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Organiser reports 275 in-person and 14 virtual tickets sold for 2026. These are self-reported event figures, not audited annual paid totals.",
+      "source_urls": [
+        "https://www.pytexas.org/conference/",
+        "https://www.pytexas.org/runbooks/conference/runbooks/registration/"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [],
+      "recurrence_observation": {
+        "kind": "annual_editions_observed",
+        "distinct_offer_start_dates": [
+          "2026-04-17"
+        ],
+        "source_url": "https://www.pytexas.org/conference/",
+        "observed_on": "2026-10-22",
+        "previous_edition_year": 2025
+      },
+      "provider_observations": [
+        {
+          "name": "pretix",
+          "role": "registration_runbook",
+          "scope": "Conference operations",
+          "source_url": "https://www.pytexas.org/runbooks/conference/runbooks/registration/",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Stripe",
+          "role": "payment_processor",
+          "scope": "Attendee payments",
+          "source_url": "https://www.pytexas.org/runbooks/conference/runbooks/registration/",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "dependency_observations": [],
+      "location_observations": [
+        {
+          "city": "Austin",
+          "state": "TX",
+          "basis": "2026_event_location",
+          "source_url": "https://www.pytexas.org/conference/"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "volume_observations": [
+        {
+          "event": "PyTexas 2026",
+          "event_start_date": "2026-04-17",
+          "unit": "tickets_reported_sold",
+          "in_person": 275,
+          "virtual": 14,
+          "basis": "organiser_self_report",
+          "paid_comp_refund_reconciliation": "unknown",
+          "source_url": "https://www.pytexas.org/conference/"
+        }
+      ]
+    },
+    {
+      "account_id": "US069",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Missing prices and book-bundle economics",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "November event has in-person and virtual admission plus book bundles; a nominally free stream bundled with a paid book is not a free-only programme.",
+      "source_urls": [
+        "https://www.sixthandi.org/",
+        "https://www.sixthandi.org/event/sophia-bush/"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [
+        {
+          "name": "Sophia Bush in person",
+          "event_start_date": "2026-11-04",
+          "currency": "USD",
+          "price_min": 30,
+          "price_max": 30,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.sixthandi.org/event/sophia-bush/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Sophia Bush virtual",
+          "event_start_date": "2026-11-04",
+          "currency": "USD",
+          "price_min": 12,
+          "price_max": 12,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.sixthandi.org/event/sophia-bush/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "In-person ticket with signed book",
+          "event_start_date": "2026-11-04",
+          "currency": "USD",
+          "price_min": 48.5,
+          "price_max": 48.5,
+          "price_basis": "published_offer",
+          "unit": "admission_plus_book",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.sixthandi.org/event/sophia-bush/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "recurrence_observation": {
+        "kind": "multiple_events_paidness_not_all_checked",
+        "distinct_offer_start_dates": [
+          "2026-10-24",
+          "2026-10-29",
+          "2026-11-04"
+        ],
+        "source_url": "https://www.sixthandi.org/",
+        "observed_on": "2026-10-22"
+      },
+      "provider_observations": [],
+      "dependency_observations": [
+        {
+          "fact": "Admission/book bundles and virtual attendance",
+          "basis": "published_features",
+          "source_url": "https://www.sixthandi.org/event/sophia-bush/"
+        }
+      ],
+      "location_observations": [
+        {
+          "city": "Washington",
+          "state": "DC",
+          "basis": "venue_address",
+          "source_url": "https://www.sixthandi.org/event/sophia-bush/"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "access_note": "Event page initially returned content; a subsequent fetch returned 403."
+    },
+    {
+      "account_id": "US070",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Near-name collision with Houston organisation",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Chicago address and Southport corporate footer distinguish this cinema from Houston Music Box Theater. Standard prices are not applicable to all special events.",
+      "source_urls": [
+        "https://www.musicboxtheatre.com/about/ticket-box-office-information"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [
+        {
+          "name": "Standard cinema admission",
+          "event_start_date": null,
+          "currency": "USD",
+          "price_min": 10,
+          "price_max": 13,
+          "price_basis": "evergreen_member_general_rates",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.musicboxtheatre.com/about/ticket-box-office-information",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "recurrence_observation": {
+        "kind": "organiser_recurring_programme_statement",
+        "distinct_offer_start_dates": [],
+        "source_url": "https://www.musicboxtheatre.com/about/ticket-box-office-information",
+        "observed_on": "2026-10-22"
+      },
+      "provider_observations": [],
+      "dependency_observations": [],
+      "location_observations": [
+        {
+          "city": "Chicago",
+          "state": "IL",
+          "basis": "venue_address",
+          "source_url": "https://www.musicboxtheatre.com/about/ticket-box-office-information"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "aliases": [
+        "Music Box Theatre",
+        "Southport Music Box Corporation"
+      ],
+      "distinct_from": [
+        "US081"
+      ]
+    },
+    {
+      "account_id": "US078",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Reference case, registration friction and course unit",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "FAQ confirms separate participant transactions, Arlo invoicing and one registration for a two-session course. Current catalogue price was not reverified.",
+      "source_urls": [
+        "https://www.managementcenter.org/faqs/"
+      ],
+      "us_scope": "us_operations_and_online_audience_unknown",
+      "offer_observations": [],
+      "recurrence_observation": null,
+      "provider_observations": [
+        {
+          "name": "Arlo",
+          "role": "invoice_request_link",
+          "scope": "Does not establish the whole checkout stack",
+          "source_url": "https://www.managementcenter.org/faqs/",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "dependency_observations": [
+        {
+          "fact": "No bulk registration in one transaction; course packages and participant-specific Zoom access",
+          "basis": "published_policy",
+          "source_url": "https://www.managementcenter.org/faqs/"
+        }
+      ],
+      "location_observations": [
+        {
+          "city": "Washington",
+          "state": "DC",
+          "basis": "in_person_training_location",
+          "source_url": "https://www.managementcenter.org/faqs/"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "capacity_observation": {
+        "value": 6,
+        "unit": "maximum_people_from_one_organisation_not_total_capacity",
+        "source_url": "https://www.managementcenter.org/faqs/"
+      },
+      "access_note": "Catalogue failed to load; retained imported price as unverified."
+    },
+    {
+      "account_id": "US080",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Location scope and venue-level ticketing control",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "FAQ says venues determine authorised ticket sellers. US dates coexist with wider operations; programme scale does not establish centrally movable inventory.",
+      "source_urls": [
+        "https://www.themoth.org/about/faq",
+        "https://www.themoth.org/tickets/upcoming-events"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [],
+      "recurrence_observation": {
+        "kind": "multiple_events_paidness_not_all_checked",
+        "distinct_offer_start_dates": [],
+        "source_url": "https://www.themoth.org/tickets/upcoming-events",
+        "observed_on": "2026-10-22",
+        "date_texts": [
+          "October 22 New York",
+          "October 23 Washington DC",
+          "November 2 Chicago"
+        ]
+      },
+      "provider_observations": [
+        {
+          "name": "Eventbrite",
+          "role": "linked_event_checkout",
+          "scope": "One observed event; not organisation-wide",
+          "source_url": "https://www.themoth.org/tickets/upcoming-events",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "dependency_observations": [
+        {
+          "fact": "Venue determines authorised seller",
+          "basis": "published_policy",
+          "source_url": "https://www.themoth.org/about/faq"
+        }
+      ],
+      "location_observations": [],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "canonical_website": "https://www.themoth.org/",
+      "conflict_resolution": "www variant and local-versus-multiple-market scope; preserve market observations, no verified HQ assignment."
+    },
+    {
+      "account_id": "US081",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Near-name collision and reserved seating",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Houston address and cabaret programme establish a different organisation from Chicago. Offer prices are published but individual run years need confirmation.",
+      "source_urls": [
+        "https://www.themusicboxtheater.com/tickets"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [
+        {
+          "name": "Cabaret general admission",
+          "event_start_date": null,
+          "currency": "USD",
+          "price_min": 42,
+          "price_max": 42,
+          "price_basis": "evergreen_rate",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.themusicboxtheater.com/tickets",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Cabaret reserved seating",
+          "event_start_date": null,
+          "currency": "USD",
+          "price_min": 57,
+          "price_max": 57,
+          "price_basis": "evergreen_rate",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "not_checked",
+          "source_url": "https://www.themusicboxtheater.com/tickets",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "recurrence_observation": {
+        "kind": "multiple_productions_dates_unresolved",
+        "distinct_offer_start_dates": [],
+        "source_url": "https://www.themusicboxtheater.com/tickets",
+        "observed_on": "2026-10-22"
+      },
+      "provider_observations": [],
+      "dependency_observations": [
+        {
+          "fact": "Reserved seating alongside general admission",
+          "basis": "published_feature",
+          "source_url": "https://www.themusicboxtheater.com/tickets"
+        }
+      ],
+      "location_observations": [
+        {
+          "city": "Houston",
+          "state": "TX",
+          "basis": "venue_address",
+          "source_url": "https://www.themusicboxtheater.com/tickets"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "distinct_from": [
+        "US070"
+      ]
+    },
+    {
+      "account_id": "US087",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Sliding-scale scholarships and waitlisted future activity",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_homepage_and_primary_index",
+      "summary": "Homepage confirms upcoming waitlists. March registration prices are historical indexed evidence, not current November availability.",
+      "source_urls": [
+        "https://www.trainingforchange.org/",
+        "https://trainingforchange.ourpowerbase.net/civicrm/event/info?id=773&reset=1"
+      ],
+      "us_scope": "us_based_online_audience_unknown",
+      "offer_observations": [
+        {
+          "name": "Leading for Engagement",
+          "event_start_date": "2026-03-10",
+          "currency": "USD",
+          "price_min": 35,
+          "price_max": 250,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "past_event",
+          "source_url": "https://trainingforchange.ourpowerbase.net/civicrm/event/info?id=773&reset=1",
+          "access_basis": "primary_search_index_only",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Full scholarship",
+          "event_start_date": "2026-03-10",
+          "currency": "USD",
+          "price_min": 0,
+          "price_max": 0,
+          "price_basis": "scholarship",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "past_event",
+          "source_url": "https://trainingforchange.ourpowerbase.net/civicrm/event/info?id=773&reset=1",
+          "access_basis": "primary_search_index_only",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "recurrence_observation": {
+        "kind": "multiple_events_paidness_not_all_checked",
+        "distinct_offer_start_dates": [
+          "2026-11-09",
+          "2026-11-18"
+        ],
+        "source_url": "https://www.trainingforchange.org/",
+        "observed_on": "2026-10-22",
+        "availability": "waitlist"
+      },
+      "provider_observations": [
+        {
+          "name": "PowerBase / CiviCRM",
+          "role": "historical_registration",
+          "scope": "March 2026 form, indexed only",
+          "source_url": "https://trainingforchange.ourpowerbase.net/civicrm/event/info?id=773&reset=1",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "dependency_observations": [],
+      "location_observations": [],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ],
+      "access_note": "Current workshop page timed out twice; homepage accessible.",
+      "paid_mix": "sliding_scale_and_scholarship_historical"
+    },
+    {
+      "account_id": "US095",
+      "checked_on": "2026-10-22",
+      "selection_reason": "Historical conference price and uncovered ticket provider",
+      "verification_status": "field_reviewed",
+      "access_basis": "direct_primary",
+      "summary": "Page marks Portland 2026 as over and links Tito. Corporate, independent and virtual categories must remain distinct.",
+      "source_urls": [
+        "https://www.writethedocs.org/conf/portland/2026/tickets/"
+      ],
+      "us_scope": "us_events_observed",
+      "offer_observations": [
+        {
+          "name": "Portland in-person tiers",
+          "event_start_date": "2026-05-03",
+          "currency": "USD",
+          "price_min": 100,
+          "price_max": 650,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "past_event",
+          "source_url": "https://www.writethedocs.org/conf/portland/2026/tickets/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        },
+        {
+          "name": "Portland virtual tiers",
+          "event_start_date": "2026-05-03",
+          "currency": "USD",
+          "price_min": 50,
+          "price_max": 175,
+          "price_basis": "published_offer",
+          "unit": "one_admission_or_registration",
+          "fees": "not_separated",
+          "availability": "past_event",
+          "source_url": "https://www.writethedocs.org/conf/portland/2026/tickets/",
+          "access_basis": "direct_primary",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "recurrence_observation": {
+        "kind": "one_historical_edition",
+        "distinct_offer_start_dates": [
+          "2026-05-03"
+        ],
+        "source_url": "https://www.writethedocs.org/conf/portland/2026/tickets/",
+        "observed_on": "2026-10-22"
+      },
+      "provider_observations": [
+        {
+          "name": "Tito",
+          "role": "linked_event_checkout",
+          "scope": "Portland 2026 only",
+          "source_url": "https://www.writethedocs.org/conf/portland/2026/tickets/",
+          "observed_on": "2026-10-22"
+        }
+      ],
+      "dependency_observations": [],
+      "location_observations": [
+        {
+          "city": "Portland",
+          "state": "OR",
+          "basis": "event_venue",
+          "source_url": "https://www.writethedocs.org/conf/portland/2026/tickets/"
+        }
+      ],
+      "unresolved": [
+        "annual_paid_ticket_volume",
+        "buying_authority",
+        "switching_intent",
+        "humanitix_relationship"
+      ]
+    }
+  ]
+}
